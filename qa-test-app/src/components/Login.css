@@ -1,0 +1,51 @@
+/* Centered card layout for login */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.login-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  padding: 24px;
+  width: 320px;
+  max-width: 90%;
+}
+
+.login-card h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.login-field {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 8px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background: #0b5fff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-error {
+  color: #b32020;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+}
